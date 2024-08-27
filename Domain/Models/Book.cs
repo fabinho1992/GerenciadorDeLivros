@@ -27,12 +27,12 @@ namespace Domain.Models
         public ICollection<Loan>? Emprestimos { get; set; }
 
 
-        public void StatusBookLoan()
+        public  void StatusBookLoan()
         {
             StatusBook = StatusBook.available;
         }
 
-        public void BookUnavailable()
+        public  void BookUnavailable()
         {
             StatusBook = StatusBook.borrowed;
         }

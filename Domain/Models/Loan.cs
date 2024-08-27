@@ -38,6 +38,7 @@ namespace Domain.Models
             if (StatusLoan == StatusLoan.active)
             {
                 StatusLoan = StatusLoan.finished;
+                Book.StatusBookLoan();
             }
         }
     }

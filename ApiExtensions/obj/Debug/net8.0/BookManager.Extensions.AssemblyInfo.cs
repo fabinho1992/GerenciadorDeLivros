@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookManager.Extensions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a9d13f9386a11d89a4a583d43d168fce531f19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5866a9fdac08e4afa76ad4a50f91281f01cf2f23")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookManager.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookManager.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
