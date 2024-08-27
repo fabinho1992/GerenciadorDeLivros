@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xiun4bnvud0=",
+  "dgSpecHash": "qASQy4Z+kHc=",
   "success": true,
-  "projectFilePath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
