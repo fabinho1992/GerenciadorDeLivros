@@ -16,3 +16,5 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\o
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\refint\BookManager.Extensions.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\ref\BookManager.Extensions.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Application.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Application.pdb

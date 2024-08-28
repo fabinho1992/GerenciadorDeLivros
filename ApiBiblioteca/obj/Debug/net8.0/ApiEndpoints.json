@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "book",
-        "Type": "Domain.Models.Book",
+        "Name": "bookCommand",
+        "Type": "BookManager.Application.Commands.BookComands.CreateCommand.CreateBookCommand",
         "IsRequired": true
       }
     ],
@@ -32,6 +32,22 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Books",
+    "Method": "GetById",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -64,6 +80,22 @@
         "Name": "paginacao",
         "Type": "BookManager.Domain.Models.ParametrosPaginacao",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Loans",
+    "Method": "GetOfTitle",
+    "RelativePath": "api/Loans/Title of book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

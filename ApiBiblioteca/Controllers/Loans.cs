@@ -30,5 +30,17 @@ namespace BookManager.Api.Controllers
             var loans = _repository.GetAll(paginacao);
             return Ok(loans);
         }
+
+        [HttpGet("Title of book")]
+        public async Task<IActionResult> GetOfTitle(string title)
+        {
+            var book = await _repository.GetByBookTitle(title);
+            if (book is null)
+            {
+                return NotFound($"book with that title {title} is not on loan");
+            }
+
+            return Ok(book);
+        }
     }
 }

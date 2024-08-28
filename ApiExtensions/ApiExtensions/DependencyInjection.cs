@@ -1,4 +1,5 @@
-﻿using BookManager.Domain.Interfaces;
+﻿using BookManager.Application.Profiles;
+using BookManager.Domain.Interfaces;
 using BookManager.infrastructure.Repositories;
 using infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,13 @@ namespace ApiExtensions.ApiExtensions
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ILoanRepository, LoanRepository>();
+
+            var myHandlers = AppDomain.CurrentDomain.Load("BookManager.Application");
+            services.AddMediatR(config =>
+                config.RegisterServicesFromAssembly(myHandlers));
+
+            //AutoMapper
+            services.AddAutoMapper(typeof(BookProfile));
 
 
 

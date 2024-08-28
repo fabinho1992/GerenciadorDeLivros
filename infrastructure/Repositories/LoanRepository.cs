@@ -47,7 +47,7 @@ namespace BookManager.infrastructure.Repositories
 
         public async Task<Loan?> GetByBookTitle(string title)
         {
-            var loan = await _context.Loans.SingleOrDefaultAsync(x => x.Book.Title.ToLower() == title.ToLower());
+            var loan = await _context.Loans.FirstOrDefaultAsync(x => x.Book.Title.ToLower() == title.ToLower());
             return loan;
         }
 
