@@ -10,3 +10,7 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\refint\BookManager.Application.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\BookManager.Application.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\ref\BookManager.Application.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\bin\Debug\net8.0\BookManager.Domain.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\bin\Debug\net8.0\BookManager.Domain.pdb
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\BookManager.Application.csproj.AssemblyReference.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\BookMana.A17D7DE5.Up2Date

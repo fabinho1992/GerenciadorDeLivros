@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using BookManager.Domain.Models;
+using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace BookManager.Domain.Interfaces
 {
     public interface ILoanRepository
     {
-        Task<Loan> Create(Loan loan);
-        Task<IEnumerable<Loan>> GetAll();
+        Task Create(Loan loan);
+        Task<IEnumerable<Loan>> GetAll(ParametrosPaginacao paginacao);
         Task<Loan> GetById(int id);
         Task<Loan> GetByBookTitle(string name);
         Task Update(Loan loan);

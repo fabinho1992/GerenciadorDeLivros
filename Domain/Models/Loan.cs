@@ -4,32 +4,32 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Models
 {
     public class Loan : BaseModel
     {
-        public Loan()
-        {
-        }
 
-        public Loan(int userId, int livroId)
+        public Loan(int userId, int bookId)
         {
             UserId = userId;
-            LivroId = livroId;
+            BookId = bookId;
             StatusLoan = StatusLoan.active;
             LoanDate = DateTime.Now;
             LoanReturn = DateTime.Now.AddDays(5);
         }
 
         public int UserId { get; private set; }
-        public int LivroId { get; private set; }
+        public int BookId { get; private set; }
         public StatusLoan StatusLoan { get; private set; } 
         public DateTime LoanDate { get; private set; }
         public DateTime LoanReturn { get; private set; }
 
+        [JsonIgnore]
         public User? User { get; set; }
+        [JsonIgnore]
         public Book? Book { get; set; }
 
 
@@ -40,6 +40,11 @@ namespace Domain.Models
                 StatusLoan = StatusLoan.finished;
                 Book.StatusBookLoan();
             }
+        }
+
+        public void BookBorrowed()
+        {
+            Book.BookUnavailable();
         }
     }
 }

@@ -1,6 +1,7 @@
 
 
 using ApiExtensions.ApiExtensions;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,25 +9,45 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDependencyInjection(builder.Configuration);
 
-builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+builder.Services.AddSwaggerGen(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    //c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Barbearia", Version = "v1" });
 
-app.UseHttpsRedirection();
 
-app.UseAuthorization();
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "V1",
+        Title = "Book Manager",
+        Description = "Api that manages the creation of books, users and the lending of these books by users",
+        Contact = new OpenApiContact
+        {
+            Name = "Fabio dos Santos",
+            Email = "f.santosdev1992@gmail.com",
+            Url = new Uri("https://www.linkedin.com/in/f%C3%A1bio-dos-santos-518612275/")
+        }
 
-app.MapControllers();
+    });
+});
 
-app.Run();
+
+
+    var app = builder.Build();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseHttpsRedirection();
+
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    app.Run();
+

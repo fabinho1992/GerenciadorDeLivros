@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace BookManager.Application.Dtos.ViewModels
 {
-    public record UserResponse(string? Name, string? Email, ICollection<Loan>);
+    public record UserResponse(string? Name, string? Email, ICollection<Loan> Loans);
 }

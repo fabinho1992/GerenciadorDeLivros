@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj": {}
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj",
         "projectName": "BookManager.Application",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\BookManager.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\BookManager.Domain.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\BookManager.Domain.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\BookManager.Domain.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj",
         "projectName": "BookManager.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\BookManager.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\BookManager.Domain.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

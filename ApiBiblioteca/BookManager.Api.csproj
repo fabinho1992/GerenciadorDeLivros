@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ApiExtensions\BookManager.Extensions.csproj" />
     <ProjectReference Include="..\infrastructure\BookManager.infrastructure.csproj" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 ﻿using BookManager.Domain.Interfaces;
+using BookManager.Domain.Models;
 using Domain.Models;
 using infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -26,14 +27,18 @@ namespace BookManager.infrastructure.Repositories
             return book;
         }
 
-        public Task Delete(Book book)
+        public async Task Delete(Book book)
         {
-            throw new NotImplementedException();
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Book>> GetAll()
+        public async Task<IEnumerable<Book>> GetAll(ParametrosPaginacao paginacao)
         {
-            return await _context.Books.ToListAsync();
+            return await _context.Books
+                .OrderBy(a => a.Id)
+                .Skip((paginacao.PageNumber - 1) * paginacao.PageSize)
+                .Take(paginacao.PageSize).AsNoTracking().ToListAsync();
         }
 
         public async Task<Book?> GetById(int? id)
@@ -42,14 +47,16 @@ namespace BookManager.infrastructure.Repositories
             return book;
         }
 
-        public Task<Book> GetBYName(string name)
+        public async Task<Book?> GetBYName(string title)
         {
-            throw new NotImplementedException();
+            var book = await _context.Books.SingleOrDefaultAsync(x => x.Title.ToLower() == title.ToLower());
+            return book;
         }
 
-        public Task Update(Book book)
+        public async Task Update(Book book)
         {
-            throw new NotImplementedException();
+            _context.Update(book);
+            await _context.SaveChangesAsync(); 
         }
     }
 }

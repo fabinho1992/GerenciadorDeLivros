@@ -16,7 +16,16 @@ namespace infrastructure.Data.Configurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.LoanDate).IsRequired();
+            builder.Property(x => x.LoanDate)
+                .IsRequired();
+            builder.Property(x => x.StatusLoan).HasConversion<string>()
+                .IsRequired();
+            builder.Property(x => x.LoanReturn)
+                .IsRequired();
+            builder.Property(x => x.UserId)
+                .IsRequired();
+            builder.Property(x => x.BookId)
+                .IsRequired();
         }
     }
 }

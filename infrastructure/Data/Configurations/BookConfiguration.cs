@@ -20,6 +20,8 @@ namespace infrastructure.Data.Configurations
             builder.Property(x => x.Author).HasMaxLength(50)
                 .IsRequired();
             builder.Property(x => x.YearOfPublication).IsRequired();
+            builder.Property(x => x.StatusBook).HasConversion<string>()
+                .IsRequired();
         }
     }
 }

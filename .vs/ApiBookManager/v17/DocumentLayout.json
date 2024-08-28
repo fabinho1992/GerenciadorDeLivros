@@ -1,66 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\",
+  "WorkspaceRootPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D66AC05B-DA19-4CC7-994C-7874B71E80A2}|ApiExtensions\\BookManager.Extensions.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\apiextensions\\apiextensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66AC05B-DA19-4CC7-994C-7874B71E80A2}|ApiExtensions\\BookManager.Extensions.csproj|solutionrelative:apiextensions\\apiextensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\application\\dtos\\viewmodels\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\application\\dtos\\viewmodels\\loanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\loanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\application\\dtos\\viewmodels\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\models\\enums\\statusbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\enums\\statusbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\repositories\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\models\\enums\\statusloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\enums\\statusloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\application\\dtos\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\parametrospaginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\parametrospaginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\domain\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\apibiblioteca\\controllers\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|solutionrelative:apibiblioteca\\controllers\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\apibiblioteca\\controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|solutionrelative:apibiblioteca\\controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\apibiblioteca\\controllers\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|solutionrelative:apibiblioteca\\controllers\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\data\\configurations\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\data\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\application\\dtos\\viewmodels\\loanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\loanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\application\\dtos\\viewmodels\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\application\\dtos\\viewmodels\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\viewmodels\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|solutionrelative:apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\application\\bookmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\bookmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|c:\\users\\usuario\\desktop\\cursos de programa\u00E7\u00E3o\\projetosmentoria\\gerenciadordelivros\\apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4577853-D049-4971-860D-C698F2C8458C}|ApiBiblioteca\\BookManager.Api.csproj|solutionrelative:apibiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010321B6-3DC5-41DD-8472-5B9AACEDCB88}|infrastructure\\BookManager.infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\enums\\statusbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\enums\\statusbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\domain\\models\\enums\\statusloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B4A88E-ABE3-4E94-8213-3BBFF7FBD31E}|Domain\\BookManager.Domain.csproj|solutionrelative:domain\\models\\enums\\statusloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\application\\dtos\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\dtos\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordebiblioteca\\application\\bookmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F3FB9F2D-F923-4731-B778-10E2AF3CFFB2}|Application\\BookManager.Application.csproj|solutionrelative:application\\bookmanager.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,196 +114,345 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "infrastructure\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "infrastructure\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:27:34.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ILoanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\ILoanRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ILoanRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\ILoanRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\ILoanRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:15:11.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAkAAAAKAAAAAAAAAA==",
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Repositories\\LoanRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\LoanRepository.cs",
+              "RelativeToolTip": "infrastructure\\Repositories\\LoanRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:11:52.076Z",
+              "WhenOpened": "2024-08-28T13:47:19.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBookRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Interfaces\\IBookRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IBookRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T17:03:03.018Z",
+              "WhenOpened": "2024-08-28T13:36:56.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Book.cs",
-              "RelativeToolTip": "Domain\\Models\\Book.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Users.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Controllers\\Users.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Users.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Controllers\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:03:45.561Z",
+              "WhenOpened": "2024-08-28T13:32:04.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:31:19.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "RelativeToolTip": "infrastructure\\Data\\Configurations\\BookConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:20:37.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "StatusLoan.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Enums\\StatusLoan.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Enums\\StatusLoan.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Enums\\StatusLoan.cs",
-              "RelativeToolTip": "Domain\\Models\\Enums\\StatusLoan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAQAAAAAAAAAA==",
+              "Title": "LoanConfiguration.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\LoanConfiguration.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\Configurations\\LoanConfiguration.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Data\\Configurations\\LoanConfiguration.cs",
+              "RelativeToolTip": "infrastructure\\Data\\Configurations\\LoanConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:01:17.485Z"
+              "WhenOpened": "2024-08-28T12:19:24.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StatusBook.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Enums\\StatusBook.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Enums\\StatusBook.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Enums\\StatusBook.cs",
-              "RelativeToolTip": "Domain\\Models\\Enums\\StatusBook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAASAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Loans.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Loans.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Controllers\\Loans.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Loans.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Controllers\\Loans.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T23:58:03.924Z"
+              "WhenOpened": "2024-08-28T12:11:37.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Books.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Controllers\\Books.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Controllers\\Books.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Controllers\\Books.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:11:26.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Loan.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Loan.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Loan.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\Loan.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Loan.cs",
               "RelativeToolTip": "Domain\\Models\\Loan.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T23:57:20.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoanResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\LoanResponse.cs",
-              "RelativeDocumentMoniker": "Application\\Dtos\\ViewModels\\LoanResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\LoanResponse.cs",
-              "RelativeToolTip": "Application\\Dtos\\ViewModels\\LoanResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T23:18:42.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\UserResponse.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\UserResponse.cs",
               "RelativeDocumentMoniker": "Application\\Dtos\\ViewModels\\UserResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\UserResponse.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\UserResponse.cs",
               "RelativeToolTip": "Application\\Dtos\\ViewModels\\UserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T23:17:50.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Book.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Book.cs",
+              "RelativeToolTip": "Domain\\Models\\Book.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:03:45.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiExtensions\\ApiExtensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ApiExtensions\\ApiExtensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiExtensions\\ApiExtensions\\DependencyInjection.cs",
+              "RelativeToolTip": "ApiExtensions\\ApiExtensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T01:05:52.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Program.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\ApiBiblioteca\\Program.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T22:07:25.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParametrosPaginacao.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\ParametrosPaginacao.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ParametrosPaginacao.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\ParametrosPaginacao.cs",
+              "RelativeToolTip": "Domain\\Models\\ParametrosPaginacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T23:57:53.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BookResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\BookResponse.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\BookResponse.cs",
               "RelativeDocumentMoniker": "Application\\Dtos\\ViewModels\\BookResponse.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ViewModels\\BookResponse.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\BookResponse.cs",
               "RelativeToolTip": "Application\\Dtos\\ViewModels\\BookResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T23:14:24.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ResultViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ResultViewModel.cs",
-              "RelativeDocumentMoniker": "Application\\Dtos\\ResultViewModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\Dtos\\ResultViewModel.cs",
-              "RelativeToolTip": "Application\\Dtos\\ResultViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T14:20:47.327Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BookManager.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj",
-              "RelativeDocumentMoniker": "Application\\BookManager.Application.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Application\\BookManager.Application.csproj",
-              "RelativeToolTip": "Application\\BookManager.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T22:43:06.854Z"
+              "Title": "LoanResponse.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\LoanResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\ViewModels\\LoanResponse.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ViewModels\\LoanResponse.cs",
+              "RelativeToolTip": "Application\\Dtos\\ViewModels\\LoanResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:18:42.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\BaseModel.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\BaseModel.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\Domain\\Models\\BaseModel.cs",
-              "RelativeToolTip": "Domain\\Models\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAASAAAAAAAAAA==",
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T22:25:31.031Z"
+              "WhenOpened": "2024-08-27T17:27:34.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\ApiBiblioteca\\Program.cs",
-              "RelativeDocumentMoniker": "ApiBiblioteca\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Cursos de Programa\u00E7\u00E3o\\ProjetosMentoria\\GerenciadorDeLivros\\ApiBiblioteca\\Program.cs",
-              "RelativeToolTip": "ApiBiblioteca\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T22:07:25.113Z"
+              "WhenOpened": "2024-08-27T17:03:03.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T00:23:14.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ILoanRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\ILoanRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ILoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:15:11.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\BaseModel.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Domain\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T22:25:31.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StatusLoan.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Enums\\StatusLoan.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Enums\\StatusLoan.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Enums\\StatusLoan.cs",
+              "RelativeToolTip": "Domain\\Models\\Enums\\StatusLoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:01:17.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T17:11:52.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StatusBook.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Enums\\StatusBook.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Enums\\StatusBook.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Domain\\Models\\Enums\\StatusBook.cs",
+              "RelativeToolTip": "Domain\\Models\\Enums\\StatusBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T23:58:03.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResultViewModel.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ResultViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\ResultViewModel.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\Dtos\\ResultViewModel.cs",
+              "RelativeToolTip": "Application\\Dtos\\ResultViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:20:47.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookManager.Application.csproj",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj",
+              "RelativeDocumentMoniker": "Application\\BookManager.Application.csproj",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeBiblioteca\\Application\\BookManager.Application.csproj",
+              "RelativeToolTip": "Application\\BookManager.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T22:43:06.854Z",
+              "EditorCaption": ""
             }
           ]
         }

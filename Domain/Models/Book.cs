@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Domain.Models
@@ -16,13 +17,14 @@ namespace Domain.Models
             Author = author;
             ISBN = iSBN;
             YearOfPublication = yearOfPublication;
+            StatusBook = StatusBook.available;
         }
 
         
         public string Title { get; private set; }
         public string Author { get; private set; }
         public string ISBN { get; private set; }
-        public StatusBook StatusBook { get; private set; } = StatusBook.available;
+        public StatusBook StatusBook { get; set; } 
         public int YearOfPublication { get; private set; }
         public ICollection<Loan>? Emprestimos { get; set; }
 
