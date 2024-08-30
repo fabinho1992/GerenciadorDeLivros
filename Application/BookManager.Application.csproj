@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Validations\" />
+    <Folder Include="Validations\BookValidation\" />
+    <Folder Include="Validations\LoanValidation\" />
+    <Folder Include="Validations\Uservalidation\" />
   </ItemGroup>
 
   <ItemGroup>

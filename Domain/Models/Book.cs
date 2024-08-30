@@ -38,5 +38,7 @@ namespace Domain.Models
         {
             StatusBook = StatusBook.borrowed;
         }
+
+
     }
 }

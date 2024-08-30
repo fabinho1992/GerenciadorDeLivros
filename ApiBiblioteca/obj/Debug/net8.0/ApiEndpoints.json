@@ -38,6 +38,22 @@
   },
   {
     "ContainingType": "BookManager.Api.Controllers.Books",
+    "Method": "Update",
+    "RelativePath": "api/Books",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookCommand",
+        "Type": "BookManager.Application.Commands.BookComands.UpdateBookCommand.UpdateBookCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Books",
     "Method": "GetById",
     "RelativePath": "api/Books/{id}",
     "HttpMethod": "GET",

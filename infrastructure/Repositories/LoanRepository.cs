@@ -22,8 +22,13 @@ namespace BookManager.infrastructure.Repositories
 
         public async Task Create(Loan loan)
         {
-            await _context.AddAsync(loan);
             var book = await _context.Books.SingleOrDefaultAsync(x => x.Id == loan.BookId);
+            if ()
+            {
+
+            }
+            await _context.AddAsync(loan);
+            
             book.BookUnavailable();
             await _context.SaveChangesAsync();
         }
@@ -70,6 +75,11 @@ namespace BookManager.infrastructure.Repositories
         public async Task Update(Loan loan)
         {
             _context.Update(loan);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task SaveChangesAsync()
+        {
             await _context.SaveChangesAsync();
         }
     }

@@ -1,5 +1,6 @@
-﻿using BookManager.Domain.Interfaces;
-using Domain.Models;
+﻿using BookManager.Application.Commands.CreateUserCommands.UpdateUserCommand;
+using BookManager.Application.Commands.UserCommand.CreateUserCommands;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,18 +10,61 @@ namespace BookManager.Api.Controllers
     [ApiController]
     public class Users : ControllerBase
     {
-        private readonly IUserRepository _repository;
+        private readonly IMediator _mediator;
 
-        public Users(IUserRepository repository)
+        public Users(IMediator mediator)
         {
-            _repository = repository;
+            _mediator = mediator;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(User user)
+        public async Task<IActionResult> Post(CreateUserCommand userCommand)
         {
-            await _repository.Create(user);
-            return Ok(user);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                var CreateUser = await _mediator.Send(userCommand);
+                return CreatedAtAction(nameof(GetById), new { id = CreateUser.Id }, CreateUser);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            throw new Exception();
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateUserCommand userCommand)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                await _mediator.Send(userCommand);
+                return NoContent();
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
     }
 }
