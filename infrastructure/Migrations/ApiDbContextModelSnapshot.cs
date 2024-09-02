@@ -37,7 +37,8 @@ namespace BookManager.infrastructure.Migrations
 
                     b.Property<string>("ISBN")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("StatusBook")
                         .IsRequired()
@@ -52,6 +53,9 @@ namespace BookManager.infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ISBN")
+                        .IsUnique();
 
                     b.ToTable("Books");
                 });

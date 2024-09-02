@@ -14,7 +14,9 @@ namespace BookManager.Domain.Interfaces
         Task<IEnumerable<Loan>> GetAll(ParametrosPaginacao paginacao);
         Task<Loan> GetById(int id);
         Task<Loan> GetByBookTitle(string name);
+        //Task FinishedLoan(int id);
         Task Update(Loan loan);
         Task Delete(Loan loan);
+        Task SaveChangesAsync();
     }
 }

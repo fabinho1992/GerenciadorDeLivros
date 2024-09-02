@@ -1,27 +1,52 @@
-﻿using BookManager.Domain.Interfaces;
+﻿using BookManager.Application.Commands.LoanCommands.CreateLoanCommands;
+using BookManager.Application.Commands.LoanCommands.EndLoanCommands;
+using BookManager.Application.Dtos;
+using BookManager.Domain.Interfaces;
 using BookManager.Domain.Models;
 using Domain.Models;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookManager.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class Loans : ControllerBase
     {
         private readonly ILoanRepository _repository;
+        private readonly IMediator _mediator;
 
-        public Loans(ILoanRepository repository)
+        public Loans(ILoanRepository repository, IMediator mediator)
         {
             _repository = repository;
+            _mediator = mediator;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Loan loan)
+        public async Task<IActionResult> Post(CreateLoanCommand loanCommand)
         {
-            await _repository.Create(loan);
-            return Ok(loan);
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var result = await _mediator.Send(loanCommand);
+
+                if (!result.IsSuccess)
+                {
+                    return BadRequest(result.Message);
+                }
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+            
         }
 
         [HttpGet]
@@ -41,6 +66,30 @@ namespace BookManager.Api.Controllers
             }
 
             return Ok(book);
+        }
+
+        [HttpPut("endLoan/{id}")]
+        public async Task<IActionResult> EndLoan(int id)
+        {
+            try
+            {
+                var finishedLoan = new EndLoanCommand(id);
+
+                var result = await _mediator.Send(finishedLoan);
+
+                if (!result.IsSuccess)
+                {
+                    return BadRequest(result.Message);
+                }
+
+
+                return Ok($"Loan Id - {finishedLoan.Id} completed successfully");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+            
         }
     }
 }

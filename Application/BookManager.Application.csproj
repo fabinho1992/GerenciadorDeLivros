@@ -7,18 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Validations\BookValidation\" />
-    <Folder Include="Validations\LoanValidation\" />
-    <Folder Include="Validations\Uservalidation\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="MediatR" Version="12.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\BookManager.Domain.csproj" />
+    <ProjectReference Include="..\infrastructure\BookManager.infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

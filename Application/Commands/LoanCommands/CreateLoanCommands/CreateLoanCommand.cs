@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using BookManager.Application.Dtos;
+using Domain.Models;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BookManager.Application.Commands.LoanCommands.CreateLoanCommands
 {
-    public class CreateLoanCommand : IRequest<Loan>
+    public class CreateLoanCommand : IRequest<ResultViewModel<int>>
     {
         public CreateLoanCommand(int userId, int bookId)
         {

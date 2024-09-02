@@ -19,6 +19,9 @@ namespace infrastructure.Data.Configurations
                 .IsRequired();
             builder.Property(x => x.Author).HasMaxLength(50)
                 .IsRequired();
+            builder.Property(x => x.ISBN).HasMaxLength(13)
+                .IsRequired();
+            builder.HasIndex(x => x.ISBN).IsUnique();
             builder.Property(x => x.YearOfPublication).IsRequired();
             builder.Property(x => x.StatusBook).HasConversion<string>()
                 .IsRequired();

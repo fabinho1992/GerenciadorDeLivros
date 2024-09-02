@@ -1,3 +1,9 @@
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.AssemblyReference.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfo.cs
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.sourcelink.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.deps.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.pdb
@@ -7,12 +13,6 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\b
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Application.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.infrastructure.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\bin\Debug\net8.0\BookManager.Domain.pdb
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.AssemblyReference.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.GeneratedMSBuildEditorConfig.editorconfig
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfoInputs.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfo.cs
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.CoreCompileInputs.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.sourcelink.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookMana.5ED9F5E8.Up2Date
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\refint\BookManager.Extensions.dll

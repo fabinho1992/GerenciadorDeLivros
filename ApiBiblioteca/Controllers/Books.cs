@@ -1,4 +1,5 @@
 ﻿using BookManager.Application.Commands.BookComands.CreateCommand;
+using BookManager.Application.Commands.BookComands.DeleteBookCommands;
 using BookManager.Application.Commands.BookComands.UpdateBookCommand;
 using BookManager.Domain.Interfaces;
 using BookManager.Domain.Models;
@@ -70,6 +71,18 @@ namespace BookManager.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(DeleteBookCommand command)
+        {
+            var result = await _mediator.Send(command);
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return NoContent();
         }
     }
 }

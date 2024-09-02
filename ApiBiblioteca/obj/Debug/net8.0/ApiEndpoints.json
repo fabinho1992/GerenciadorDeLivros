@@ -54,6 +54,22 @@
   },
   {
     "ContainingType": "BookManager.Api.Controllers.Books",
+    "Method": "Delete",
+    "RelativePath": "api/Books",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BookManager.Application.Commands.BookComands.DeleteBookCommands.DeleteBookCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Books",
     "Method": "GetById",
     "RelativePath": "api/Books/{id}",
     "HttpMethod": "GET",
@@ -69,16 +85,74 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BookManager.Api.Controllers.Loans",
+    "ContainingType": "BookManager.Api.Controllers.Users",
     "Method": "Post",
-    "RelativePath": "api/Loans",
+    "RelativePath": "api/Users",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loan",
-        "Type": "Domain.Models.Loan",
+        "Name": "userCommand",
+        "Type": "BookManager.Application.Commands.UserCommand.CreateUserCommands.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Users",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Users",
+    "Method": "Update",
+    "RelativePath": "api/Users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCommand",
+        "Type": "BookManager.Application.Commands.CreateUserCommands.UpdateUserCommand.UpdateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Users",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Loans",
+    "Method": "Post",
+    "RelativePath": "Loans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanCommand",
+        "Type": "BookManager.Application.Commands.LoanCommands.CreateLoanCommands.CreateLoanCommand",
         "IsRequired": true
       }
     ],
@@ -87,7 +161,7 @@
   {
     "ContainingType": "BookManager.Api.Controllers.Loans",
     "Method": "GetAll",
-    "RelativePath": "api/Loans",
+    "RelativePath": "Loans",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -102,8 +176,24 @@
   },
   {
     "ContainingType": "BookManager.Api.Controllers.Loans",
+    "Method": "EndLoan",
+    "RelativePath": "Loans/endLoan/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookManager.Api.Controllers.Loans",
     "Method": "GetOfTitle",
-    "RelativePath": "api/Loans/Title of book",
+    "RelativePath": "Loans/Title of book",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -112,22 +202,6 @@
         "Name": "title",
         "Type": "System.String",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookManager.Api.Controllers.Users",
-    "Method": "Post",
-    "RelativePath": "api/Users",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "user",
-        "Type": "Domain.Models.User",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
