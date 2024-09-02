@@ -16,3 +16,21 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\refint\BookManager.Application.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\BookManager.Application.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Application\obj\Debug\net8.0\ref\BookManager.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.Application.deps.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.Application.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.infrastructure.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\bin\Debug\net8.0\BookManager.infrastructure.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookMana.A17D7DE5.Up2Date
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\refint\BookManager.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\BookManager.Application.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Application\obj\Debug\net8.0\ref\BookManager.Application.dll

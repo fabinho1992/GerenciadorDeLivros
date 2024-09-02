@@ -10,3 +10,15 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Domain\obj\Debu
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Domain\obj\Debug\net8.0\refint\BookManager.Domain.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Domain\obj\Debug\net8.0\BookManager.Domain.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\Domain\obj\Debug\net8.0\ref\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\bin\Debug\net8.0\BookManager.Domain.deps.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\bin\Debug\net8.0\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\bin\Debug\net8.0\BookManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\refint\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\BookManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\Domain\obj\Debug\net8.0\ref\BookManager.Domain.dll

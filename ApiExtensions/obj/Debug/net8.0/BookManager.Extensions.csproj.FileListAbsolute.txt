@@ -18,3 +18,23 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\o
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\refint\BookManager.Extensions.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeBiblioteca\ApiExtensions\obj\Debug\net8.0\ref\BookManager.Extensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.deps.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Extensions.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Application.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.infrastructure.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Application.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.infrastructure.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\bin\Debug\net8.0\BookManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookMana.5ED9F5E8.Up2Date
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\refint\BookManager.Extensions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\BookManager.Extensions.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciadorDeLivros\ApiExtensions\obj\Debug\net8.0\ref\BookManager.Extensions.dll

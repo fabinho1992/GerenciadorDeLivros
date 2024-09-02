@@ -11,8 +11,9 @@ namespace Domain.Models
 {
     public class Book : BaseModel
     {
-        public Book(string title, string author, string iSBN, int yearOfPublication)
+        public Book(int id, string title, string author, string iSBN, int yearOfPublication) 
         {
+            Id = id;
             Title = title;
             Author = author;
             ISBN = iSBN;
@@ -20,7 +21,10 @@ namespace Domain.Models
             StatusBook = StatusBook.available;
         }
 
-        
+        public Book()
+        {
+        }
+
         public string Title { get; private set; }
         public string Author { get; private set; }
         public string ISBN { get; private set; }

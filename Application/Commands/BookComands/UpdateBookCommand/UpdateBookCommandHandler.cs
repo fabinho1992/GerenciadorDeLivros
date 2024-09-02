@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using BookManager.Domain.Interfaces;
+using BookManager.Domain.Interfaces.BookInterfaces;
 using Domain.Models;
 using MediatR;
 using System;

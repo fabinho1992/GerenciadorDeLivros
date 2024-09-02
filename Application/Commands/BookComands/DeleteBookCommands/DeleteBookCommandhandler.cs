@@ -1,5 +1,5 @@
 ﻿using BookManager.Application.Dtos;
-using BookManager.Domain.Interfaces;
+using BookManager.Domain.Interfaces.BookInterfaces;
 using MediatR;
 using System;
 using System.Collections.Generic;

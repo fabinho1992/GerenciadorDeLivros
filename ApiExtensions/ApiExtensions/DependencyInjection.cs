@@ -4,16 +4,20 @@ using BookManager.Application.Dtos;
 using BookManager.Application.Profiles;
 using BookManager.Application.Validations.BookValidation;
 using BookManager.Domain.Interfaces;
+using BookManager.Domain.Interfaces.BookInterfaces;
 using BookManager.infrastructure.Repositories;
+using BookManager.infrastructure.Repositories.BookRepositories;
 using Domain.Models;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using infrastructure.Data;
 using MediatR;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Converters;
+using System.Data;
 using System.Text.Json.Serialization;
 
 namespace ApiExtensions.ApiExtensions
@@ -36,11 +40,24 @@ namespace ApiExtensions.ApiExtensions
             services.AddDbContext<ApiDbContext>(opt => 
                             opt.UseSqlServer(connectionString));
 
+            //Dapper
+            services.AddSingleton<IDbConnection>(provider =>
+            {
+                // Crie a conexão com o banco de dados
+                var connection = new SqlConnection(connectionString);
+                connection.Open();
+
+                // Crie a instância do ApiDbContext e passe a conexão
+                return connection;
+            });
+
+
 
             //InjectionDependency
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ILoanRepository, LoanRepository>();
+            services.AddScoped<IBookDapperRepository, BookDapperRepository>();
 
             //FluentValidation
             services.AddFluentValidationAutoValidation()

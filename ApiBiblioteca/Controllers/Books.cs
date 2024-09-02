@@ -1,6 +1,7 @@
 ﻿using BookManager.Application.Commands.BookComands.CreateCommand;
 using BookManager.Application.Commands.BookComands.DeleteBookCommands;
 using BookManager.Application.Commands.BookComands.UpdateBookCommand;
+using BookManager.Application.Queries.BookQueries;
 using BookManager.Domain.Interfaces;
 using BookManager.Domain.Models;
 using Domain.Models;
@@ -45,14 +46,24 @@ namespace BookManager.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] ParametrosPaginacao paginacao)
         {
-            throw new NotImplementedException();
+            var query = new BookQuery();
+            var books = await _mediator.Send(query);
+
+            return Ok(books);
         }
 
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)
         {
-            
-            throw new NotImplementedException();
+
+            var query = new BookQueryById(id);
+            var book = await _mediator.Send(query);
+            if (book is null)
+            {
+                return BadRequest(book.Message);
+            }
+
+            return Ok(book);
         }
 
         [HttpPut]

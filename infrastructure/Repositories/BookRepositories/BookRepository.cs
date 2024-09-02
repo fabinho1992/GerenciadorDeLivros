@@ -1,4 +1,4 @@
-﻿using BookManager.Domain.Interfaces;
+﻿using BookManager.Domain.Interfaces.BookInterfaces;
 using BookManager.Domain.Models;
 using Domain.Models;
 using infrastructure.Data;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookManager.infrastructure.Repositories
+namespace BookManager.infrastructure.Repositories.BookRepositories
 {
     public class BookRepository : IBookRepository
     {
@@ -56,7 +56,7 @@ namespace BookManager.infrastructure.Repositories
         public async Task Update(Book book)
         {
             _context.Update(book);
-            await _context.SaveChangesAsync(); 
+            await _context.SaveChangesAsync();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ namespace infrastructure.Data
 {
     public class ApiDbContext : DbContext
     {
+
         public ApiDbContext(DbContextOptions options) : base(options)
         {
         }

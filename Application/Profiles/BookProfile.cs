@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BookManager.Application.Commands.BookComands.CreateCommand;
 using BookManager.Application.Commands.BookComands.UpdateBookCommand;
+using BookManager.Application.Dtos.ViewModels;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace BookManager.Application.Profiles
         {
             CreateMap<CreateBookCommand, Book>().ReverseMap();
             CreateMap<UpdateBookCommand, Book>().ReverseMap();
+            CreateMap<Book, BookResponse>().ReverseMap();
         }
     }
 }
