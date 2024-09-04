@@ -31,9 +31,14 @@ namespace BookManager.Application.ServicesEmails
                                     
         }
 
-        public Task SendEmailEndLoan(int id)
+        public async Task SendEmailEndLoan(int id)
         {
-            throw new NotImplementedException();
+            var loan = await _repository.GetById(id);
+
+            var message = $"Hello {loan.User.Name}," +
+                                   $"This email confirms the return of the loan of id - {loan.Id}, of book {loan.Book.Title}, thank you.";
+
+            await _emailService.SendEmailService(" Confirmation of end of loan", message, loan.User.Email, loan.User.Name);
         }
     }
 }
