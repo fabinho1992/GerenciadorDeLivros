@@ -19,7 +19,7 @@ namespace infrastructure.Data.Configurations
                 .IsRequired();
             builder.Property(x => x.Email).HasMaxLength(50)
                 .IsRequired();
-            builder.HasMany(x => x.Loan)
+            builder.HasMany(x => x.Loans)
                 .WithOne(x => x.User)
                 .HasForeignKey(x => x.UserId)
                 .OnDelete(DeleteBehavior.Restrict);

@@ -11,7 +11,7 @@ namespace BookManager.Application.Commands.BookComands.UpdateBookCommand
 {
     public class UpdateBookCommand : IRequest<Book>
     {
-        public UpdateBookCommand(string title, string author, string iSBN, int yearOfPublication)
+        public UpdateBookCommand(int id, string title, string author, string iSBN, int yearOfPublication)
         {
             Title = title;
             Author = author;

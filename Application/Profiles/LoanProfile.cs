@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BookManager.Application.Commands.LoanCommands.CreateLoanCommands;
+using BookManager.Application.Dtos.ViewModels;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace BookManager.Application.Profiles
         public LoanProfile()
         {
             CreateMap<CreateLoanCommand, Loan>().ReverseMap();
+            CreateMap<LoanResponse, Loan>().ForMember(x => x.StatusLoan, opt => opt.MapFrom(x => x.Status)).ReverseMap();
         }
     }
 }

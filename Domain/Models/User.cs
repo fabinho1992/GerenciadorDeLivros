@@ -19,6 +19,6 @@ namespace Domain.Models
  
         public string Name { get; private set; }
         public string Email { get; private set; }
-        public ICollection<Loan>? Loan { get; set; }
+        public ICollection<Loan> Loans { get; set; }
     }
 }

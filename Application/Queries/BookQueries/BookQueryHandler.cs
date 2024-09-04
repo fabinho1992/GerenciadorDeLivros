@@ -25,11 +25,7 @@ namespace BookManager.Application.Queries.BookQueries
         public async Task<ResultViewModel<IEnumerable<BookResponse>>> Handle(BookQuery request, CancellationToken cancellationToken)
         {
             var books = await _repository.GetAll(request.PageNumber, request.PageSize);
-            if (books is null)
-            {
-                return ResultViewModel<IEnumerable<BookResponse>>.Error("Books not found");
-            }
-
+           
             var booksResponse = _mapper.Map<IEnumerable<BookResponse>>(books);
 
             return new ResultViewModel<IEnumerable<BookResponse>>(booksResponse);

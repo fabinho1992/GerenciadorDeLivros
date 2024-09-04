@@ -31,13 +31,13 @@ namespace BookManager.infrastructure.Repositories.BookRepositories
         public async Task<Book> GetById(int id)
         {
             string query = "SELECT * FROM Books WHERE ID = @id";
-            return await _context.QueryFirstAsync<Book>(query, new {Id = id});
+            return await _context.QueryFirstOrDefaultAsync<Book>(query, new {Id = id});
         }
 
         public async Task<Book> GetByTitle(string title)
         {
-            string query = "SELECT * FROM Books WHERE TITLE = '@title'";
-            return await _context.QueryFirstAsync<Book>(query);
+            string query = "SELECT * FROM Books WHERE TITLE Like @title";
+            return await _context.QueryFirstOrDefaultAsync<Book>(query, new { title = title });
         }
     }
 }

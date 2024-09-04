@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BookManager.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class Books : ControllerBase
     {
@@ -40,7 +40,7 @@ namespace BookManager.Api.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
-            
+
         }
 
         [HttpGet]
@@ -58,13 +58,26 @@ namespace BookManager.Api.Controllers
 
             var query = new BookQueryById(id);
             var book = await _mediator.Send(query);
-            if (book is null)
+            if (!book.IsSuccess)
             {
-                return BadRequest(book.Message);
+                return NotFound(book.Message);
             }
 
             return Ok(book);
         }
+
+        [HttpGet("BookTitle/{title}")]
+        public async Task<IActionResult> GetByTitle(string title)
+        {
+            var query = new BookQueryByTitle(title);
+            var book = await _mediator.Send(query);
+            if (!book.IsSuccess)
+            {
+                return NotFound(book.Message);
+            }
+            return Ok(book);
+        }
+
 
         [HttpPut]
         public async Task<IActionResult> Update(UpdateBookCommand bookCommand)
@@ -84,10 +97,11 @@ namespace BookManager.Api.Controllers
             }
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> Delete(DeleteBookCommand command)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
-            var result = await _mediator.Send(command);
+            var book = new DeleteBookCommand(id);
+            var result = await _mediator.Send(book);
             if (!result.IsSuccess)
             {
                 return BadRequest(result.Message);

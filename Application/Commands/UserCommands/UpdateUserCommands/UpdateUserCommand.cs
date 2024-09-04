@@ -10,8 +10,9 @@ namespace BookManager.Application.Commands.CreateUserCommands.UpdateUserCommand
 {
     public class UpdateUserCommand : IRequest<User>
     {
-        public UpdateUserCommand(string name, string email)
+        public UpdateUserCommand(int id, string name, string email)
         {
+            Id = id;
             Name = name;
             Email = email;
         }

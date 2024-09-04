@@ -2,9 +2,11 @@
 using BookManager.Application.Commands.LoanCommands.EndLoanCommands;
 using BookManager.Application.Dtos;
 using BookManager.Application.Profiles;
+using BookManager.Application.ServicesEmails;
 using BookManager.Application.Validations.BookValidation;
 using BookManager.Domain.Interfaces;
 using BookManager.Domain.Interfaces.BookInterfaces;
+using BookManager.Domain.Services;
 using BookManager.infrastructure.Repositories;
 using BookManager.infrastructure.Repositories.BookRepositories;
 using Domain.Models;
@@ -58,6 +60,8 @@ namespace ApiExtensions.ApiExtensions
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ILoanRepository, LoanRepository>();
             services.AddScoped<IBookDapperRepository, BookDapperRepository>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<ISendEmails, SendEmails>();
 
             //FluentValidation
             services.AddFluentValidationAutoValidation()
@@ -73,11 +77,8 @@ namespace ApiExtensions.ApiExtensions
 
             //AutoMapper
             services.AddAutoMapper(typeof(BookProfile));
-
-
-
-
-
+            services.AddAutoMapper(typeof(LoanProfile));
+            services.AddAutoMapper(typeof(UserProfile));
 
 
 

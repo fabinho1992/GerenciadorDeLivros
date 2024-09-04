@@ -1,6 +1,7 @@
 ﻿using BookManager.Application.Commands.LoanCommands.CreateLoanCommands;
 using BookManager.Application.Commands.LoanCommands.EndLoanCommands;
 using BookManager.Application.Dtos;
+using BookManager.Application.Queries.LoanQueries;
 using BookManager.Domain.Interfaces;
 using BookManager.Domain.Models;
 using Domain.Models;
@@ -50,10 +51,16 @@ namespace BookManager.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll(ParametrosPaginacao paginacao)
+        public async Task<IActionResult> GetAll([FromQuery] LoanQueryAll loanQuery)
         {
-            var loans = _repository.GetAll(paginacao);
-            return Ok(loans);
+            var query = new LoanQueryAll(loanQuery.PageNumber, loanQuery.PageSize);
+            var result = await _mediator.Send(query);
+            if (!result.IsSuccess) 
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
         }
 
         [HttpGet("Title of book")]
@@ -68,7 +75,7 @@ namespace BookManager.Api.Controllers
             return Ok(book);
         }
 
-        [HttpPut("endLoan/{id}")]
+        [HttpPut("EndLoan/{id}")]
         public async Task<IActionResult> EndLoan(int id)
         {
             try

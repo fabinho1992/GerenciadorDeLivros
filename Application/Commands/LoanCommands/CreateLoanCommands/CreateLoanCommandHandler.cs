@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BookManager.Application.Dtos;
 using BookManager.Domain.Interfaces;
+using BookManager.Domain.Services;
 using Domain.Models;
 using MediatR;
 using System;
@@ -15,17 +16,20 @@ namespace BookManager.Application.Commands.LoanCommands.CreateLoanCommands
     {
         private readonly ILoanRepository _repository;
         private readonly IMapper _mapper;
+        private readonly ISendEmails _sendEmail;
 
-        public CreateLoanCommandHandler(ILoanRepository repository, IMapper mapper)
+        public CreateLoanCommandHandler(ILoanRepository repository, IMapper mapper, ISendEmails sendEmail)
         {
             _repository = repository;
             _mapper = mapper;
+            _sendEmail = sendEmail;
         }
 
         public async Task<ResultViewModel<int>> Handle(CreateLoanCommand request, CancellationToken cancellationToken)
         {
             var newLoan = _mapper.Map<Loan>(request);
             await _repository.Create(newLoan);
+            await _sendEmail.SendEmailCreateLoan(newLoan.Id);
             return ResultViewModel<int>.Success(newLoan.Id);
         }
     }

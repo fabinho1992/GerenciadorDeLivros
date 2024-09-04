@@ -42,7 +42,7 @@ namespace BookManager.infrastructure.Repositories
 
         public async Task<User?> GetById(int id)
         {
-            var User = await _context.Users.SingleOrDefaultAsync(a => a.Id == id);
+            var User = await _context.Users.Include(x => x.Loans).ThenInclude(x => x.Book).SingleOrDefaultAsync(a => a.Id == id);
             return User;
         }
 

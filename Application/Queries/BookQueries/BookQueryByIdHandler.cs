@@ -25,13 +25,14 @@ namespace BookManager.Application.Queries.BookQueries
         public async Task<ResultViewModel<BookResponse>> Handle(BookQueryById request, CancellationToken cancellationToken)
         {
             var book = await _dapperRepository.GetById(request.Id);
-            if (book is null)
+            if (book == null)
             {
                 return ResultViewModel<BookResponse>.Error("Book Not Found.");
             }
+            
 
             var bookResponse = _mapper.Map<BookResponse>(book);
-            return new ResultViewModel<BookResponse>(bookResponse);
+            return ResultViewModel<BookResponse>.Success(bookResponse);
         }
     }
 }

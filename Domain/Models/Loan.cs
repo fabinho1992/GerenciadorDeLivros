@@ -27,9 +27,7 @@ namespace Domain.Models
         public DateTime LoanDate { get; private set; }
         public DateTime LoanReturn { get; private set; }
 
-        [JsonIgnore]
         public User? User { get; set; }
-        [JsonIgnore]
         public Book? Book { get; set; }
 
 
