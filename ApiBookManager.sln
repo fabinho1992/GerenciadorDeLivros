@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Api", "ApiBibli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManager.Extensions", "ApiExtensions\BookManager.Extensions.csproj", "{D66AC05B-DA19-4CC7-994C-7874B71E80A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManager.UnitTests", "BookManager.UnitTests\BookManager.UnitTests.csproj", "{73E94B87-2D35-4505-814E-FA4E04D73676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D66AC05B-DA19-4CC7-994C-7874B71E80A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66AC05B-DA19-4CC7-994C-7874B71E80A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66AC05B-DA19-4CC7-994C-7874B71E80A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E94B87-2D35-4505-814E-FA4E04D73676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E94B87-2D35-4505-814E-FA4E04D73676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E94B87-2D35-4505-814E-FA4E04D73676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E94B87-2D35-4505-814E-FA4E04D73676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

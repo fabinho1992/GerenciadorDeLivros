@@ -20,7 +20,7 @@ namespace BookManager.infrastructure.Repositories.BookRepositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Book>> GetAll(int pageNumber, int pageSize)
+        public async Task<IEnumerable<Book>> GetAll(int? pageNumber, int? pageSize)
         {
             string query = "SELECT * FROM Books ORDER BY Id OFFSET (@PageNumber - 1) * @PageSize ROWS FETCH NEXT @PageSize ROWS ONLY;";
             

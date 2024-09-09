@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BookManager.Application.Queries.BookQueries
 {
-    public class BookQuery : BookPagination, IRequest<ResultViewModel<IEnumerable<BookResponse>>>
+    public class BookQuery : BookPagination, IRequest<IEnumerable<BookResponse>>
     {
     }
 }

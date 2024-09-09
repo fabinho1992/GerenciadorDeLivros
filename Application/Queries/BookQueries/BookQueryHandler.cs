@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace BookManager.Application.Queries.BookQueries
 {
-    public class BookQueryHandler : IRequestHandler<BookQuery, ResultViewModel<IEnumerable<BookResponse>>>
+    public class BookQueryHandler : IRequestHandler<BookQuery, IEnumerable<BookResponse>>
     {
         private readonly IBookDapperRepository _repository;
         private readonly IMapper _mapper;
@@ -22,13 +22,13 @@ namespace BookManager.Application.Queries.BookQueries
             _mapper = mapper;
         }
 
-        public async Task<ResultViewModel<IEnumerable<BookResponse>>> Handle(BookQuery request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<BookResponse>> Handle(BookQuery request, CancellationToken cancellationToken)
         {
             var books = await _repository.GetAll(request.PageNumber, request.PageSize);
            
             var booksResponse = _mapper.Map<IEnumerable<BookResponse>>(books);
 
-            return new ResultViewModel<IEnumerable<BookResponse>>(booksResponse);
+            return booksResponse;
         }
     }
 }

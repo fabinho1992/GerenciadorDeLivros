@@ -10,7 +10,7 @@ namespace BookManager.Domain.Interfaces.BookInterfaces
 {
     public interface IBookDapperRepository
     {
-        Task<IEnumerable<Book>> GetAll(int pageNumber, int pageSize);
+        Task<IEnumerable<Book>> GetAll(int? pageNumber, int? pageSize);
         Task<Book> GetById(int id);
         Task<Book> GetByTitle(string title);
     }

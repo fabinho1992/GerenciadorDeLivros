@@ -3,19 +3,27 @@ using MimeKit;
 using System.Net.Mail;
 using MimeKit.Text;
 using System.Net;
+using Microsoft.Extensions.Configuration;
 
 
 namespace BookManager.Application.ServicesEmails
 {
     public class EmailService : IEmailService
     {
+        private readonly IConfiguration _config;
+
+        public EmailService(IConfiguration config)
+        {
+            _config = config;
+        }
+
         public Task SendEmailService(string subject, string message, string userEmail, string userName)
         {
             // Configure as credenciais do servidor SMTP
-            var smtpServer = "smtp.gmail.com"; // Substitua pelo seu servidor SMTP
+            var smtpServer = _config.GetValue<string>("SmtpSettings:Server"); //"smtp.gmail.com"; // Substitua pelo seu servidor SMTP
             var smtpPort = 587; // Substitua pela porta do seu servidor SMTP
-            var smtpUsername = "f.santosdev1992@gmail.com"; // Substitua pelo seu email
-            var smtpPassword = "ruzm otfz iwde ddej"; // Substitua pela sua senha
+            var smtpUsername = _config.GetValue<string>("SmtpSettings:User");//"f.santosdev1992@gmail.com"; // Substitua pelo seu email
+            var smtpPassword = _config.GetValue<string>("SmtpSettings:Pass");//"ruzm otfz iwde ddej"; // Substitua pela sua senha
 
 
             // Crie um novo email
